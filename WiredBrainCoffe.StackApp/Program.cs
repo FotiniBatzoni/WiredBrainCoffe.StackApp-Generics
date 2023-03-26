@@ -9,7 +9,7 @@ Console.ReadLine();
 
 static void StackDoubles()
 {
-    var stack = new SimpleStack<double>();
+    var stack = new Stack<double>();
 
     stack.Push(1.2);
     stack.Push(2.8);
@@ -29,7 +29,7 @@ static void StackDoubles()
 
 void StackStrings()
 {
-    var stack = new SimpleStack<string>();
+    var stack = new Stack<string>();
     stack.Push("Wired Brain Coffee");
     stack.Push("Pluralsight");
 
